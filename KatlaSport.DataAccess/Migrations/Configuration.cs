@@ -90,7 +90,9 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    ManufacturerCode = "KYME1",
+                    Price = 100M
                 },
                 new CatalogueProduct
                 {
@@ -101,7 +103,9 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    ManufacturerCode = "TTME1",
+                    Price = 200M
                 },
                 new CatalogueProduct
                 {
@@ -112,7 +116,9 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    ManufacturerCode = "ABITI1",
+                    Price = 80M
                 },
                 new CatalogueProduct
                 {
@@ -123,7 +129,9 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    ManufacturerCode = "PBYC1",
+                    Price = 160.5M
                 });
 
             context.StoreHives.AddOrUpdate(
